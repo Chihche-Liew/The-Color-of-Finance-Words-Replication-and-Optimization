@@ -8,7 +8,7 @@ The contents of the code folder encompass a collection of scripts and utilities 
 # R Code Files with '.1' Suffix
 Supplementary to the primary code corpus, the repository also encompasses R code files denoted by a '.1' suffix. These files have been tailored to cater to novel conversation datasets, thereby extending the repository's applicability beyond its original scope.
 
-#Text Preprocessing for Conversations
+# Text Preprocessing for Conversations
 The `TextPreprocessingConversation` script occupies a pivotal role in the preprocessing pipeline. It orchestrates the transformation of raw textual data into an organized, structured format, facilitated through the creation of tidy dataframes. This preparatory phase is indispensable for subsequent stages of analysis.
 
 # Fine-Tuning BERT 
