@@ -7,7 +7,7 @@ rm(list = ls())
 no.iterations <- 500
 
 ## Preamble: set working directory
-setwd("D:/ColorFinanceWords")
+setwd()
 
 ## Load packages
 require(tibble)
