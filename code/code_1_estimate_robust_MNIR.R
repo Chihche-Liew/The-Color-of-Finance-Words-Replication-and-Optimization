@@ -7,7 +7,7 @@ rm(list = ls())
 no.iterations <- 500
 
 ## Preamble: set working directory
-setwd("D:/ColorFinanceWords")
+setwd()
 
 ## Load packages
 require(tibble)
@@ -143,16 +143,15 @@ structureRobustMnirOutput <- function(MNIRest = MNIRest, # output of function ge
 ##########################################################
 
 ## load data
-#load("data/meta.RData")
-meta <- read_csv('./data/con_arousal_happy_20230803.csv')
-#load("data/dtm_unigram.RData")
+load("data/meta.RData")
+load("data/dtm_unigram.RData")
 
 
 ## calculate the excess return
 n_pull <- -1
 
-wrds_user <- "lzy2lzz"
-wrds_password <- "playerpassword"
+wrds_user <- ""
+wrds_password <- ""
 
 wrds <- dbConnect(Postgres(),
                   host     = "wrds-pgdata.wharton.upenn.edu",
