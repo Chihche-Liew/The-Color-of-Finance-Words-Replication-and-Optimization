@@ -2,7 +2,7 @@ require(tidyverse)
 require(RPostgres)
 require(bizdays)
 require(zoo)
-setwd("D:/ColorFinanceWords")
+setwd()
 
 
 meta <- read.csv('./data/event_data.csv') %>% 
@@ -12,8 +12,8 @@ meta <- read.csv('./data/event_data.csv') %>%
 sample <- meta
 n_pull <- -1
 
-wrds_user <- "lzy2lzz"
-wrds_password <- "playerpassword"
+wrds_user <- ""
+wrds_password <- ""
 
 wrds <- dbConnect(Postgres(),
                   host     = "wrds-pgdata.wharton.upenn.edu",
