@@ -5,7 +5,7 @@
 # Preamble, setting working directory
 
 rm(list = ls())
-setwd("D:/ColorFinanceWords")
+setwd()
 
 ## packages
 require(tibble)
