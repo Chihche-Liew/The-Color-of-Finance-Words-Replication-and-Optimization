@@ -1,3 +1,5 @@
+Project in BC with Miao Liu and Yang Cao, Replication of García et al. (2023, JFE) and changes on conversation data and model.
+
 The contents of the folder encompass a collection of scripts and utilities central to this research endeavor. To provide context, the following delineation elucidates the constituent elements:
 
 # R Code Files from 0 to 3  
