@@ -16,3 +16,5 @@ The `TextPreprocessingConversation` script occupies a pivotal role in the prepro
 # Fine-Tuning BERT 
 The `FineTuneBert` is at the center of our current research push, we are trying to fine tune Google Bert to achieve more accurate text-based real-time earnings predictions.
 
+# Explaining BERT by Shapley Value
+The `BertShap` uses shap library to explain the in-sample bert attention/word importance.
